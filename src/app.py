@@ -10,7 +10,7 @@ from utils import APIException, generate_sitemap
 from admin import setup_admin
 from models import db, User
 #from models import Person
-
+#AQUI SE TRABAJAN LAS RUTAS, TRABAJAR DESPUES DE LA LINEA 34
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 
